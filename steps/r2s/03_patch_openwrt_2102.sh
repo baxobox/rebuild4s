@@ -25,6 +25,9 @@ cp -R $BUILDDIR/immortal-fresh-$IMMORTAL_SUFFIX/target/linux/rockchip target/lin
 #-------------- kernel / rtl8812au-ac -------------
 cp -R $BUILDDIR/immortal-fresh-$IMMORTAL_SUFFIX/package/kernel/rtl8812au-ac package/kernel/
 
+#----------------add fullconenat
+cp -R $BUILDDIR/immortal-fresh-$IMMORTAL_SUFFIX/package/kernel/fullconenat package/kernel/
+
 #-------------- remove patch from openwrt 21.02 killer 5ghz on rtl8812au-ac ---------
 rm package/kernel/mac80211/patches/subsys/353-mac80211-minstrel_ht-fix-MINSTREL_FRAC-macro.patch
 
