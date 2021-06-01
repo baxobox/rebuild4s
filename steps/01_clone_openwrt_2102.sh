@@ -11,7 +11,8 @@ mkdir build
 cd build
 
 OPENWRT_FOLDER=openwrt-fresh-2102
-git clone https://github.com/anmansky/openwrt-21.02.0-rc2.git $OPENWRT_FOLDER
+git clone -b openwrt-21.02 --single-branch https://git.openwrt.org/openwrt/openwrt.git $OPENWRT_FOLDER
+# https://github.com/anmansky/openwrt-21.02.0-rc2.git $OPENWRT_FOLDER
 #-b openwrt-21.02 --single-branch https://git.openwrt.org/openwrt/openwrt.git $OPENWRT_FOLDER
 cd $OPENWRT_FOLDER
 echo "Current OpenWRT commit"
