@@ -19,7 +19,8 @@ echo "Current OpenWRT commit"
 git log -1
 
 # git go to specific tag if needed
-OPENWRT_TAG=3e09cc496912264df05487ef0fae656c75a18a41
+#OPENWRT_TAG=3e09cc496912264df05487ef0fae656c75a18a41 rc2
+OPENWRT_TAG=aeb7b57798c7274a0bc0bc0a18ce5b2acb4a851f
 git reset --hard $OPENWRT_TAG
 
 # note how to freeze feeds too if needed
